@@ -1,0 +1,3 @@
+[submodule "bridges"]
+	path = bridges
+	url = https://github.com/MiRoboticsLab/bridges.git
