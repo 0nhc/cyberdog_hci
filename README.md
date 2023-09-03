@@ -33,12 +33,11 @@ sudo reboot
 # 在你自己的电脑上执行这些命令
 sudo gedit ~/.bashrc
 # 在~/.bashrc这个文件里加两行：
-# export ROS_DOMAIN_ID=42
-# export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp
-# 然后保存退出
-# 执行该命令让配置生效：
+export ROS_DOMAIN_ID=42
+export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp
+# 然后保存退出，执行该命令让配置生效：
 source ~/.bashrc
-# 然后安装依赖
+# 然后安装依赖（我用的是ROS 2 Humble版本，根据你自己的ROS 2版本修改）
 sudo apt install ros-humble-rmw-cyclonedds-cpp
 ```
 
@@ -55,7 +54,6 @@ source install/setup.bash
 
 ## 4. 运行这个功能包
 ```sh
-cd ~/hci_ws
-source install/setup.bash
+source ~/hci_ws/install/setup.bash
 ros2 run cyberdog_remote client # 默认运行这个是站立
 ```
