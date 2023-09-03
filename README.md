@@ -1,6 +1,6 @@
 # cyberdog_hci
 HCI铁蛋2代的配置流程
-## 1. 开启多播模式
+## 1. 铁蛋开启多播模式
 ```sh
 # 在铁蛋的Jetson NX板上执行这些命令
 cd /etc/mi
@@ -39,3 +39,5 @@ sudo gedit ~/.bashrc
 # 执行该命令让配置生效：
 source ~/.bashrc
 ```
+
+## 3. PC端部署这个功能包
