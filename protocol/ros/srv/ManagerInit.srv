@@ -1,8 +1,0 @@
-# This srv does not need request.
-
----
-
-# Result code has defined robot_code.
-
-# Response
-int32 res_code

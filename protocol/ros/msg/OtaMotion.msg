@@ -1,2 +1,0 @@
-uint32 command
-string version
